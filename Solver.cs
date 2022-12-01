@@ -2,11 +2,12 @@
 
 public abstract class Solver
 {
-    public abstract string Solve();
+    public abstract string SolvePart1();
+    public abstract string SolvePart2();
 
     public void Run()
     {
-        string answer = Solve();
-        Console.WriteLine(answer);
+        Console.WriteLine(SolvePart1());
+        Console.WriteLine(SolvePart2());
     }
 }
