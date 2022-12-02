@@ -10,6 +10,7 @@ public static class AdventRunner
     static AdventRunner()
     {
         _solvers[0] = new Day01();
+        _solvers[1] = new Day02();
     }
 
     public static void Run(int day)

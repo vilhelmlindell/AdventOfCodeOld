@@ -66,7 +66,7 @@ public class Day01 : Solver
 
         //return highestCalorieCounts.Sum().ToString();
         return File.ReadAllText(Environment.CurrentDirectory + "/2022/Input/Day01.txt")
-            .Split("\r\n\r\n")
+            .Split("\n\n")
             .Select(x => x.Split("\r\n"))
             .Select(x => x.Select(y => Convert.ToInt32(y)).Sum())
             .OrderByDescending(x => x)
