@@ -1,26 +1,33 @@
 ﻿using System.Collections.Generic;
+
+using AdventOfCode._2021;
 using AdventOfCode._2022;
 
 namespace AdventOfCode;
 
 public static class AdventRunner
 {
-    private static Solver[] _solvers = new Solver[25];
+    private static Dictionary<int, YearRunner> _yearRunners = new Dictionary<int, YearRunner>();
 
     static AdventRunner()
     {
-        _solvers[0] = new Day01();
-        _solvers[1] = new Day02();
+        _yearRunners[2021] = new Year2021();
+        _yearRunners[2022] = new Year2022();
     }
 
-    public static void Run(int day)
+    public static void Run(int year, int day)
     {
-        _solvers[day - 1].Run();
+        _yearRunners[year].Run(day);
+    }
+    
+    public static void Run(int year)
+    {
+        _yearRunners[year].Run();
     }
 
     public static void Run()
     {
-        foreach (Solver solver in _solvers)
-            solver.Run();
+        foreach (YearRunner yearRunner in _yearRunners.Values)
+            yearRunner.Run();
     }
 }

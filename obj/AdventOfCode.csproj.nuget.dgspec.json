@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\AdventOfCode\\AdventOfCode.csproj": {}
+    "/home/vilhelm/dev/csharp/AdventOfCode/AdventOfCode.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\AdventOfCode\\AdventOfCode.csproj": {
+    "/home/vilhelm/dev/csharp/AdventOfCode/AdventOfCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\AdventOfCode\\AdventOfCode.csproj",
+        "projectUniqueName": "/home/vilhelm/dev/csharp/AdventOfCode/AdventOfCode.csproj",
         "projectName": "AdventOfCode",
-        "projectPath": "C:\\Dev\\AdventOfCode\\AdventOfCode.csproj",
-        "packagesPath": "C:\\Users\\Vilhelm Lindell\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\AdventOfCode\\obj\\",
+        "projectPath": "/home/vilhelm/dev/csharp/AdventOfCode/AdventOfCode.csproj",
+        "packagesPath": "/home/vilhelm/.nuget/packages/",
+        "outputPath": "/home/vilhelm/dev/csharp/AdventOfCode/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vilhelm Lindell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/vilhelm/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -43,8 +43,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -53,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Vilhelm Lindell\\.dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
         }
       }
     }
