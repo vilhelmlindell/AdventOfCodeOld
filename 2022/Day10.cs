@@ -8,7 +8,7 @@ public class Day10 : Solver
         int clockCycle = 0;
         int register = 1;
         int signalStrengthSum = 0;
-        var cyclesToCheck = new int[] { 20, 60, 100, 140, 180, 220 };
+        var cyclesToCheck = new HashSet<int> { 20, 60, 100, 140, 180, 220 };
         foreach (var line in lines)
         {
             if (line == "") continue;
