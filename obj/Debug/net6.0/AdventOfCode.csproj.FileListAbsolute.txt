@@ -43,11 +43,3 @@ C:/Dev/AdventOfCode/obj/Debug/net6.0/ref/AdventOfCode.dll
 /home/vilhelm/dev/csharp/AdventOfCode/obj/Debug/net6.0/ref/AdventOfCode.dll
 /home/vilhelm/dev/csharp/AdventOfCode/obj/Debug/net6.0/AdventOfCode.pdb
 /home/vilhelm/dev/csharp/AdventOfCode/obj/Debug/net6.0/AdventOfCode.genruntimeconfig.cache
-C:\Users\Admin\RiderProjects\AdventOfCode\obj\Debug\net6.0\AdventOfCode.csproj.AssemblyReference.cache
-C:\Users\Admin\RiderProjects\AdventOfCode\obj\Debug\net6.0\AdventOfCode.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Admin\RiderProjects\AdventOfCode\obj\Debug\net6.0\AdventOfCode.AssemblyInfoInputs.cache
-C:\Users\Admin\RiderProjects\AdventOfCode\obj\Debug\net6.0\AdventOfCode.AssemblyInfo.cs
-C:\Users\Admin\RiderProjects\AdventOfCode\obj\Debug\net6.0\AdventOfCode.csproj.CoreCompileInputs.cache
-C:\Users\Admin\RiderProjects\AdventOfCode\obj\Debug\net6.0\AdventOfCode.dll
-C:\Users\Admin\RiderProjects\AdventOfCode\obj\Debug\net6.0\refint\AdventOfCode.dll
-C:\Users\Admin\RiderProjects\AdventOfCode\obj\Debug\net6.0\AdventOfCode.pdb

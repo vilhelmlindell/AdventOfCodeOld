@@ -2,4 +2,4 @@
 
 Directory.SetCurrentDirectory(@Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName);
 
-AdventRunner.Run(2022, 4);
+AdventRunner.Run(2022, 10);

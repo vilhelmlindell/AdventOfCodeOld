@@ -1,6 +1,4 @@
-﻿using System.Linq;
-
-namespace AdventOfCode._2022;
+﻿namespace AdventOfCode._2022;
 
 public class Day01 : Solver
 {
