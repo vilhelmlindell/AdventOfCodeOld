@@ -11,7 +11,6 @@ public class Day10 : Solver
         var cyclesToCheck = new HashSet<int> { 20, 60, 100, 140, 180, 220 };
         foreach (var line in lines)
         {
-            if (line == "") continue;
             var sections = line.Split(' ');
             if (sections[0] == "addx")
             {
@@ -56,7 +55,6 @@ public class Day10 : Solver
         
         foreach (var line in lines)
         {
-            if (line == "") continue;
             var sections = line.Split(' ');
             if (sections[0] == "addx")
             {
